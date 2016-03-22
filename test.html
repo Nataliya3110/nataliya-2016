@@ -4,11 +4,15 @@
         <title>Table</title>
     </head>
     <body>
-        <table>
+        <table border="1" width=100%>
             <tr>
-                <th>Summary</th>
-                <th></th>
-                <th></th>
+                <th rowspan="2">Summary</th>
+                <th>Quater I</th>
+                <th>Quater II</th>
+            </tr>
+            <tr>
+                <th>Results</th>
+                <th>Results</th>
             </tr>
             <tr>
                 <td>January</td>
@@ -25,5 +29,15 @@
                 <td colspan="2">100</td>
             </tr>
         </table>
+        <br>
+        <form id="contact" action="formcontacts" method="get">
+          <fieldset><label for="name">Name</label>
+          <input type="text" id="name" required>
+          <br>
+          <label for="email">Email</label>
+          <input type="email" id="email" pattern="^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$" required>
+          <br>
+          <input type="submit"></fieldset>
+        </form>
     </body>
 </html>
