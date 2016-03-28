@@ -70,29 +70,35 @@ fieldset{
 }
 #gallery > #gallery1 {order:1}
 #gallery > #gallery2 {order:2}
-#gallery > #gallery3 {order:3}/*
+#gallery > #gallery3 {order:3}
 #gallery > #gallery4 {order:4}
-#gallery > #gallery5 {order:5}*/
-
 #gallery{
     margin: auto;
     background-color: #c9d8c5;
-    /*text-align: center;*/
+    text-align: center;
     font-size: 30px;
     font-family:'Open Sans';
     color:#4d7130;
 }
-#gallery1, #gallery2, #gallery3, #gallery4, #gallery5{
-    border: solid;
+#gallery1, #gallery2, #gallery3, #gallery4{
     padding: 30px;
 }
 div>img{
-    border-radius: 50%;
+    border-radius: 25%;
 }
 #treners{
     font-size: 25px;
     font-family:'Open Sans';
     color:#4d7130;
+}
+.trener1{
+    width: 33%;
+}
+.trener2{
+    width: 33%;
+}
+.trener3{
+    width: 33%;
 }
 .footer{
     margin:0px;
@@ -100,6 +106,10 @@ div>img{
     border:0px;
     background-color: #7d4627;
     text-align: center;
+}
+iframe{
+    margin: auto;
+    display: block;
 }
 
   
