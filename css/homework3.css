@@ -1,10 +1,9 @@
 body{
-    margin: 0px;
+    margin: auto;
     max-width: 1366px;
 }
 .fon{
-    display: flex;
-    box-sizing: content-box;
+    margin: auto;
     position: absolute;
     top: 0px;
     left:0px;
@@ -71,12 +70,14 @@ fieldset{
 }
 #gallery > #gallery1 {order:1}
 #gallery > #gallery2 {order:2}
-#gallery > #gallery3 {order:3}
+#gallery > #gallery3 {order:3}/*
 #gallery > #gallery4 {order:4}
-#gallery > #gallery5 {order:5}
+#gallery > #gallery5 {order:5}*/
+
 #gallery{
+    margin: auto;
     background-color: #c9d8c5;
-    text-align: center;
+    /*text-align: center;*/
     font-size: 30px;
     font-family:'Open Sans';
     color:#4d7130;
