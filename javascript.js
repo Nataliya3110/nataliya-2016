@@ -11,5 +11,5 @@ $('#btn-send').click(function() {
       dataType: "json"
   }).done(function() {
      $('#container').html('<h1>Thank you!</h1>')
-  } );
+  });
 });
